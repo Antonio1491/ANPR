@@ -17,7 +17,7 @@ nav a {
   font-weight: bold; }
 
 header img {
-  height: 7em; }
+  height: 6em; }
 
 #foto-portada {
   background: url("../img/portada.jpg");
@@ -95,6 +95,12 @@ header img {
   margin: auto;
   border-radius: 4px;
   color: #6e9e4c; }
+
+#contacto label {
+  color: #535353; }
+
+#contacto input[type=submit] {
+  margin: auto; }
 
 footer {
   background: #1c3643;

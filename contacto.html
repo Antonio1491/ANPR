@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio | ANPR</title>
+    <title>Contacto | ANPR</title>
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
@@ -62,36 +62,47 @@
     <!-- ===== Contenido ===== -->
     <main>
       <section id="contenido">
-        <div class="row">
-          <div class="column">
-            <img src="img/familia-parque.jpg" alt="">
-          </div>
-          <div class="column">
-            <p>En todas las comunidades existe un lugar en donde la gente se reúne para platicar, hacer  ejercicio,  leer  o  relajarse;  en  todas  las  comunidades  existen  parques  y espacios    públicos,    sin    embargo    las    características    del    mismo,    servicio, mantenimiento, atracciones y opciones son con mucho diferentes unos de otros. </p>
-            <p>El valor económico de los parques es enorme e impacta en numerosos aspectos de la sociedad: Económicos, Sociales, de Salud, Turísticos, Ambientales, Seguridad, entre otros. <a href="antecedentes-anpr.html">Seguir leyendo</a></p>
-          </div>
+        <div class="row column">
+          <h2>Contáctanos</h2>
         </div>
+        <form action="https://formspree.io/info.congreso@anpr.org.mx" method="POST" id="contacto">
+          <div class="row">
+              <div class="column medium-6">
+                <label for="">Nombre:</label>
+                <input type="text" name="nombre" value="">
+                <label for="">Email:</label>
+                <input type="email" name="email" value="">
+              </div>
+              <div class="column medium-6">
+                <label for="">Mensaje</label>
+                <textarea name="mensaje" rows="5" cols=""></textarea>
+              </div>
+          </div>
+          <div class="row">
+            <input type="submit" name="button" class="medium button large" value="Enviar">
+          </div>
+        </form>
       </section>
       <!-- Registro Boletín -->
     <section id="registro">
       <h4 class="text-center">¡Mantente informado!</h4>
       <h6 class="text-center">Regístrate para obtener actualizaciones sobre descuentos para conferencias, promociones y noticias.</h6>
-      <form action="registro.php" method="POST">
+      <form action="" method="">
         <div class="row align-justify formulario-1">
           <div class="column small-12 medium-3 small-order-1">
-            <input type="text" class="" name="nombre">
+            <input type="text" class="">
             <label for="" class="text-center">Nombre</label>
           </div>
           <div class="column small-12 medium-3 small-order-2">
-            <input type="text" name="apellido">
+            <input type="text">
             <label for="" class="text-center">Apellido</label>
           </div>
           <div class="column small-12 medium-3 small-order-3">
-            <input type="text" name="email"></input>
+            <input type="text"></input>
             <label for="" class="text-center">E-mail</label>
           </div>
           <div class="column small-12 medium-3 text-center small-order-4">
-            <input type="submit" name="" id="registro-horizontal" class="button btn-morado" value="REGISTRATE">
+            <input type="button" name="" id="registro-horizontal" class="button btn-morado" value="REGISTRATE">
           </div>
         </div>
       </form>
