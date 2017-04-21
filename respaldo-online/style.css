@@ -1,0 +1,8 @@
+#contieneImagen{
+ 	margin: 0 auto;
+}
+#contieneImagen img{
+	width: 70vw;
+	display: block;
+	margin: 0 auto;
+}

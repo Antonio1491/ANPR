@@ -1,0 +1,82 @@
+body{
+	background-image:url('../img/fondo_2.jpg') ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+legend{
+	color:#0B97CB;
+}
+
+header img{
+	margin-top: 20px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+.todo{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: ;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 15px;
+}
+#logo{
+	width: 400px;
+	height: 150px;
+}
+form label{
+	color:#fff;
+}
+.cuadro-azul{
+	background-color:#699509;/* #36A7DF    verde #C6DB00*/
+	margin-left: px;
+	margin-right: px;
+	border-radius: 5px;
+}
+.cuadro-azul p{
+	color:#fff;
+	padding: 10px;
+}
+.formulario{
+	border:0px solid #7A7979;
+	background-color: ;
+	margin-top: -10px;
+	padding-top: 10px;
+}
+
+.txt-general{
+	font-size: 16px;
+	color:#fff;
+}
+
+.txt-general ul li{
+	list-style: none;
+}
+.txt-general ul li:before{
+	content: url('../img/icon_3.png');
+	display: ;
+	padding-top: 3px;
+
+}
+.iconos{
+	color:.#699509;
+}
+.btn-new{
+	background-color: #699509; 
+	color:#F8F8F8;
+}
+.negritas{
+	color: #67BC02
+}
+.gris{
+	color:#2C2C2C;
+}
+#aviso{
+	text-align: center;
+}
+#aviso a{
+	color:#28C609;
+	font-size: 14px;
+}
